@@ -1,0 +1,108 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: lightblue;
+  font-size: 18px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+
+/* .skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+} */
+
+
+nav{
+  background-color: tan;
+  padding: 20px 0; 
+  text-align: right;
+}
+
+footer{
+  background-color: darkblue;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+nav a:hover, a:focus{
+  text-decoration: underline;
+}
+
+/* .skip a{
+  position: absolute;
+  top: -40px;
+} */
+
+
+
+/* a:active {
+    outline: 0;
+    text-decoration: underline !important;
+} */
+
+
+/* .skip a:focus{
+  position: absolute;
+  top: 20px;
+} */
+
+*:focus {
+  border: 2px solid blue;
+}
+
+.gallery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
